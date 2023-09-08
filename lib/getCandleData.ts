@@ -1,5 +1,9 @@
 const getCandleData = async (timeDuration: string, section = "hist") => {
   // console.log(timeDuration);
+
+  console.log(
+    `${process.env.NEXT_PUBLIC_BITFINEXAPI_URL}trade:${timeDuration}:tBTCUSD/${section}`
+  );
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BITFINEXAPI_URL}trade:${timeDuration}:tBTCUSD/${section}`,
