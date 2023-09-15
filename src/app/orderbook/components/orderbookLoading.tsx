@@ -35,10 +35,10 @@ const orderbookLoading = () => {
       <div>
         <div>
           <div className={`flex  justify-between  rounded-xl items-center `}>
-            <div>Count</div>
-            <div>Amount</div>
-            <div>Total</div>
             <div>Price</div>
+            <div>Total</div>
+            <div>Amount</div>
+            <div>Count</div>
           </div>
         </div>
         {dummy.map((el: Array<number>, i: number) => (

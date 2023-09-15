@@ -16,7 +16,7 @@ const Dropdown = ({ onDropDownChange }: DropdownProps) => {
         <option value="tBTCUSD">Bitcoin</option>
         <option value="tLTCUSD">Litecoin</option>
         <option value="tETHUSD">Ethereum </option>
-        <option value="tTRTUSD">Terra</option>
+        <option value="tDOGE:USD">Dogecoin</option>
       </select>
     </div>
   );
